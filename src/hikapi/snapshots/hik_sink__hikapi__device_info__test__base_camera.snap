@@ -1,0 +1,14 @@
+---
+source: src/hikapi/device_info.rs
+expression: parsed
+
+---
+device_name: PTZ
+device_id: 7ccc4404-e05d-4376-8ebf-81127da67c11
+model: DS-2DE4A425IW-DE
+serial_number: DS-2DE4A425IW-DE20180101AAWRC52000000W
+mac_address: "ff:ff:ff:ff:ff:ff"
+firmware_version: V5.5.71
+firmware_release_date: build 180725
+device_type: IPDome
+

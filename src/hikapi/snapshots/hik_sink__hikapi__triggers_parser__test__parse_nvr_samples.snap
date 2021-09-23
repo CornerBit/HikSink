@@ -1,0 +1,611 @@
+---
+source: src/hikapi/triggers_parser.rs
+expression: parsed
+
+---
+- identifier:
+    channel: "1"
+    event_type: Io
+  hik_id: IO-1
+  description: ""
+- identifier:
+    channel: "2"
+    event_type: Io
+  hik_id: IO-2
+  description: ""
+- identifier:
+    channel: "3"
+    event_type: Io
+  hik_id: IO-3
+  description: ""
+- identifier:
+    channel: "4"
+    event_type: Io
+  hik_id: IO-4
+  description: ""
+- identifier:
+    channel: "101"
+    event_type: Io
+  hik_id: IO-101
+  description: ""
+- identifier:
+    channel: "201"
+    event_type: Io
+  hik_id: IO-201
+  description: ""
+- identifier:
+    channel: "401"
+    event_type: Io
+  hik_id: IO-401
+  description: ""
+- identifier:
+    channel: "701"
+    event_type: Io
+  hik_id: IO-701
+  description: ""
+- identifier:
+    channel: "702"
+    event_type: Io
+  hik_id: IO-702
+  description: ""
+- identifier:
+    channel: "1001"
+    event_type: Io
+  hik_id: IO-1001
+  description: ""
+- identifier:
+    channel: "1"
+    event_type: Motion
+  hik_id: VMD-1
+  description: ""
+- identifier:
+    channel: "2"
+    event_type: Motion
+  hik_id: VMD-2
+  description: ""
+- identifier:
+    channel: "3"
+    event_type: Motion
+  hik_id: VMD-3
+  description: ""
+- identifier:
+    channel: "4"
+    event_type: Motion
+  hik_id: VMD-4
+  description: ""
+- identifier:
+    channel: "5"
+    event_type: Motion
+  hik_id: VMD-5
+  description: ""
+- identifier:
+    channel: "6"
+    event_type: Motion
+  hik_id: VMD-6
+  description: ""
+- identifier:
+    channel: "7"
+    event_type: Motion
+  hik_id: VMD-7
+  description: ""
+- identifier:
+    channel: "8"
+    event_type: Motion
+  hik_id: VMD-8
+  description: ""
+- identifier:
+    channel: "9"
+    event_type: Motion
+  hik_id: VMD-9
+  description: ""
+- identifier:
+    channel: "10"
+    event_type: Motion
+  hik_id: VMD-10
+  description: ""
+- identifier:
+    channel: "15"
+    event_type: Motion
+  hik_id: VMD-15
+  description: ""
+- identifier:
+    channel: "1"
+    event_type: Tamper
+  hik_id: tamper-1
+  description: ""
+- identifier:
+    channel: "2"
+    event_type: Tamper
+  hik_id: tamper-2
+  description: ""
+- identifier:
+    channel: "3"
+    event_type: Tamper
+  hik_id: tamper-3
+  description: ""
+- identifier:
+    channel: "4"
+    event_type: Tamper
+  hik_id: tamper-4
+  description: ""
+- identifier:
+    channel: "5"
+    event_type: Tamper
+  hik_id: tamper-5
+  description: ""
+- identifier:
+    channel: "6"
+    event_type: Tamper
+  hik_id: tamper-6
+  description: ""
+- identifier:
+    channel: "7"
+    event_type: Tamper
+  hik_id: tamper-7
+  description: ""
+- identifier:
+    channel: "8"
+    event_type: Tamper
+  hik_id: tamper-8
+  description: ""
+- identifier:
+    channel: "9"
+    event_type: Tamper
+  hik_id: tamper-9
+  description: ""
+- identifier:
+    channel: "10"
+    event_type: Tamper
+  hik_id: tamper-10
+  description: ""
+- identifier:
+    channel: "15"
+    event_type: Tamper
+  hik_id: tamper-15
+  description: ""
+- identifier:
+    channel: "1"
+    event_type: VideoLoss
+  hik_id: videoloss-1
+  description: ""
+- identifier:
+    channel: "2"
+    event_type: VideoLoss
+  hik_id: videoloss-2
+  description: ""
+- identifier:
+    channel: "3"
+    event_type: VideoLoss
+  hik_id: videoloss-3
+  description: ""
+- identifier:
+    channel: "4"
+    event_type: VideoLoss
+  hik_id: videoloss-4
+  description: ""
+- identifier:
+    channel: "5"
+    event_type: VideoLoss
+  hik_id: videoloss-5
+  description: ""
+- identifier:
+    channel: "6"
+    event_type: VideoLoss
+  hik_id: videoloss-6
+  description: ""
+- identifier:
+    channel: "7"
+    event_type: VideoLoss
+  hik_id: videoloss-7
+  description: ""
+- identifier:
+    channel: "8"
+    event_type: VideoLoss
+  hik_id: videoloss-8
+  description: ""
+- identifier:
+    channel: "9"
+    event_type: VideoLoss
+  hik_id: videoloss-9
+  description: ""
+- identifier:
+    channel: "10"
+    event_type: VideoLoss
+  hik_id: videoloss-10
+  description: ""
+- identifier:
+    channel: "11"
+    event_type: VideoLoss
+  hik_id: videoloss-11
+  description: ""
+- identifier:
+    channel: "12"
+    event_type: VideoLoss
+  hik_id: videoloss-12
+  description: ""
+- identifier:
+    channel: "13"
+    event_type: VideoLoss
+  hik_id: videoloss-13
+  description: ""
+- identifier:
+    channel: "14"
+    event_type: VideoLoss
+  hik_id: videoloss-14
+  description: ""
+- identifier:
+    channel: "15"
+    event_type: VideoLoss
+  hik_id: videoloss-15
+  description: ""
+- identifier:
+    channel: "16"
+    event_type: VideoLoss
+  hik_id: videoloss-16
+  description: ""
+- identifier:
+    channel: "1"
+    event_type: FieldDetection
+  hik_id: fielddetection-1
+  description: ""
+- identifier:
+    channel: "2"
+    event_type: FieldDetection
+  hik_id: fielddetection-2
+  description: ""
+- identifier:
+    channel: "3"
+    event_type: FieldDetection
+  hik_id: fielddetection-3
+  description: ""
+- identifier:
+    channel: "4"
+    event_type: FieldDetection
+  hik_id: fielddetection-4
+  description: ""
+- identifier:
+    channel: "5"
+    event_type: FieldDetection
+  hik_id: fielddetection-5
+  description: ""
+- identifier:
+    channel: "6"
+    event_type: FieldDetection
+  hik_id: fielddetection-6
+  description: ""
+- identifier:
+    channel: "7"
+    event_type: FieldDetection
+  hik_id: fielddetection-7
+  description: ""
+- identifier:
+    channel: "8"
+    event_type: FieldDetection
+  hik_id: fielddetection-8
+  description: ""
+- identifier:
+    channel: "9"
+    event_type: FieldDetection
+  hik_id: fielddetection-9
+  description: ""
+- identifier:
+    channel: "10"
+    event_type: FieldDetection
+  hik_id: fielddetection-10
+  description: ""
+- identifier:
+    channel: "15"
+    event_type: FieldDetection
+  hik_id: fielddetection-15
+  description: ""
+- identifier:
+    channel: "1"
+    event_type: LineDetection
+  hik_id: linedetection-1
+  description: ""
+- identifier:
+    channel: "2"
+    event_type: LineDetection
+  hik_id: linedetection-2
+  description: ""
+- identifier:
+    channel: "3"
+    event_type: LineDetection
+  hik_id: linedetection-3
+  description: ""
+- identifier:
+    channel: "4"
+    event_type: LineDetection
+  hik_id: linedetection-4
+  description: ""
+- identifier:
+    channel: "5"
+    event_type: LineDetection
+  hik_id: linedetection-5
+  description: ""
+- identifier:
+    channel: "6"
+    event_type: LineDetection
+  hik_id: linedetection-6
+  description: ""
+- identifier:
+    channel: "7"
+    event_type: LineDetection
+  hik_id: linedetection-7
+  description: ""
+- identifier:
+    channel: "8"
+    event_type: LineDetection
+  hik_id: linedetection-8
+  description: ""
+- identifier:
+    channel: "9"
+    event_type: LineDetection
+  hik_id: linedetection-9
+  description: ""
+- identifier:
+    channel: "10"
+    event_type: LineDetection
+  hik_id: linedetection-10
+  description: ""
+- identifier:
+    channel: "15"
+    event_type: LineDetection
+  hik_id: linedetection-15
+  description: ""
+- identifier:
+    channel: "2"
+    event_type: FaceDetection
+  hik_id: facedetection-2
+  description: ""
+- identifier:
+    channel: "3"
+    event_type: FaceDetection
+  hik_id: facedetection-3
+  description: ""
+- identifier:
+    channel: "4"
+    event_type: FaceDetection
+  hik_id: facedetection-4
+  description: ""
+- identifier:
+    channel: "5"
+    event_type: FaceDetection
+  hik_id: facedetection-5
+  description: ""
+- identifier:
+    channel: "6"
+    event_type: FaceDetection
+  hik_id: facedetection-6
+  description: ""
+- identifier:
+    channel: "7"
+    event_type: FaceDetection
+  hik_id: facedetection-7
+  description: ""
+- identifier:
+    channel: "8"
+    event_type: FaceDetection
+  hik_id: facedetection-8
+  description: ""
+- identifier:
+    channel: "9"
+    event_type: FaceDetection
+  hik_id: facedetection-9
+  description: ""
+- identifier:
+    channel: "10"
+    event_type: FaceDetection
+  hik_id: facedetection-10
+  description: ""
+- identifier:
+    channel: "15"
+    event_type: FaceDetection
+  hik_id: facedetection-15
+  description: ""
+- identifier:
+    channel: "7"
+    event_type: AudioException
+  hik_id: audioexception-7
+  description: ""
+- identifier:
+    channel: "1"
+    event_type: RegionEntrance
+  hik_id: regionEntrance-1
+  description: ""
+- identifier:
+    channel: "7"
+    event_type: RegionEntrance
+  hik_id: regionEntrance-7
+  description: ""
+- identifier:
+    channel: "1"
+    event_type: RegionExiting
+  hik_id: regionExiting-1
+  description: ""
+- identifier:
+    channel: "7"
+    event_type: RegionExiting
+  hik_id: regionExiting-7
+  description: ""
+- identifier:
+    channel: "2"
+    event_type: UnattendedBaggage
+  hik_id: unattendedBaggage-2
+  description: ""
+- identifier:
+    channel: "3"
+    event_type: UnattendedBaggage
+  hik_id: unattendedBaggage-3
+  description: ""
+- identifier:
+    channel: "4"
+    event_type: UnattendedBaggage
+  hik_id: unattendedBaggage-4
+  description: ""
+- identifier:
+    channel: "5"
+    event_type: UnattendedBaggage
+  hik_id: unattendedBaggage-5
+  description: ""
+- identifier:
+    channel: "6"
+    event_type: UnattendedBaggage
+  hik_id: unattendedBaggage-6
+  description: ""
+- identifier:
+    channel: "7"
+    event_type: UnattendedBaggage
+  hik_id: unattendedBaggage-7
+  description: ""
+- identifier:
+    channel: "8"
+    event_type: UnattendedBaggage
+  hik_id: unattendedBaggage-8
+  description: ""
+- identifier:
+    channel: "9"
+    event_type: UnattendedBaggage
+  hik_id: unattendedBaggage-9
+  description: ""
+- identifier:
+    channel: "10"
+    event_type: UnattendedBaggage
+  hik_id: unattendedBaggage-10
+  description: ""
+- identifier:
+    channel: "15"
+    event_type: UnattendedBaggage
+  hik_id: unattendedBaggage-15
+  description: ""
+- identifier:
+    channel: "2"
+    event_type: AttendedBaggage
+  hik_id: attendedBaggage-2
+  description: ""
+- identifier:
+    channel: "3"
+    event_type: AttendedBaggage
+  hik_id: attendedBaggage-3
+  description: ""
+- identifier:
+    channel: "4"
+    event_type: AttendedBaggage
+  hik_id: attendedBaggage-4
+  description: ""
+- identifier:
+    channel: "5"
+    event_type: AttendedBaggage
+  hik_id: attendedBaggage-5
+  description: ""
+- identifier:
+    channel: "6"
+    event_type: AttendedBaggage
+  hik_id: attendedBaggage-6
+  description: ""
+- identifier:
+    channel: "7"
+    event_type: AttendedBaggage
+  hik_id: attendedBaggage-7
+  description: ""
+- identifier:
+    channel: "8"
+    event_type: AttendedBaggage
+  hik_id: attendedBaggage-8
+  description: ""
+- identifier:
+    channel: "9"
+    event_type: AttendedBaggage
+  hik_id: attendedBaggage-9
+  description: ""
+- identifier:
+    channel: "10"
+    event_type: AttendedBaggage
+  hik_id: attendedBaggage-10
+  description: ""
+- identifier:
+    channel: "15"
+    event_type: AttendedBaggage
+  hik_id: attendedBaggage-15
+  description: ""
+- identifier:
+    channel: "1"
+    event_type: SceneChangeDetection
+  hik_id: scenechangedetection-1
+  description: ""
+- identifier:
+    channel: "2"
+    event_type: SceneChangeDetection
+  hik_id: scenechangedetection-2
+  description: ""
+- identifier:
+    channel: "3"
+    event_type: SceneChangeDetection
+  hik_id: scenechangedetection-3
+  description: ""
+- identifier:
+    channel: "4"
+    event_type: SceneChangeDetection
+  hik_id: scenechangedetection-4
+  description: ""
+- identifier:
+    channel: "5"
+    event_type: SceneChangeDetection
+  hik_id: scenechangedetection-5
+  description: ""
+- identifier:
+    channel: "6"
+    event_type: SceneChangeDetection
+  hik_id: scenechangedetection-6
+  description: ""
+- identifier:
+    channel: "8"
+    event_type: SceneChangeDetection
+  hik_id: scenechangedetection-8
+  description: ""
+- identifier:
+    channel: "9"
+    event_type: SceneChangeDetection
+  hik_id: scenechangedetection-9
+  description: ""
+- identifier:
+    channel: "10"
+    event_type: SceneChangeDetection
+  hik_id: scenechangedetection-10
+  description: ""
+- identifier:
+    channel: "15"
+    event_type: SceneChangeDetection
+  hik_id: scenechangedetection-15
+  description: ""
+- identifier:
+    channel: ~
+    event_type: DiskFull
+  hik_id: diskfull
+  description: ""
+- identifier:
+    channel: ~
+    event_type: DiskError
+  hik_id: diskerror
+  description: ""
+- identifier:
+    channel: ~
+    event_type: NicBroken
+  hik_id: nicbroken
+  description: ""
+- identifier:
+    channel: ~
+    event_type: IpConflict
+  hik_id: ipconflict
+  description: ""
+- identifier:
+    channel: ~
+    event_type: IllegalAccess
+  hik_id: illaccess
+  description: ""
+- identifier:
+    channel: ~
+    event_type: RecordingFailure
+  hik_id: recordingfailure
+  description: ""
+

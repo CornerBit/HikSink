@@ -1,0 +1,11 @@
+---
+source: src/mqtt/manager.rs
+expression: manager.mqtt_lwt()
+
+---
+topic: hikvision_cameras/availability
+qos: AtLeastOnce
+retain: true
+payload:
+  Constant: offline
+

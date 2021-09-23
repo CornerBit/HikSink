@@ -1,0 +1,1710 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EventTriggerList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>IO-1</id>
+<eventType>IO</eventType>
+<inputIOPortID>1</inputIOPortID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>IO-2</id>
+<eventType>IO</eventType>
+<inputIOPortID>2</inputIOPortID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>IO-3</id>
+<eventType>IO</eventType>
+<inputIOPortID>3</inputIOPortID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>IO-4</id>
+<eventType>IO</eventType>
+<inputIOPortID>4</inputIOPortID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>IO-101</id>
+<eventType>IO</eventType>
+<dynInputIOPortID>101</dynInputIOPortID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>IO-201</id>
+<eventType>IO</eventType>
+<dynInputIOPortID>201</dynInputIOPortID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>IO-401</id>
+<eventType>IO</eventType>
+<dynInputIOPortID>401</dynInputIOPortID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>IO-701</id>
+<eventType>IO</eventType>
+<dynInputIOPortID>701</dynInputIOPortID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>IO-702</id>
+<eventType>IO</eventType>
+<dynInputIOPortID>702</dynInputIOPortID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>IO-1001</id>
+<eventType>IO</eventType>
+<dynInputIOPortID>1001</dynInputIOPortID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>VMD-1</id>
+<eventType>VMD</eventType>
+<dynVideoInputChannelID>1</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-1</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>1</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>VMD-2</id>
+<eventType>VMD</eventType>
+<dynVideoInputChannelID>2</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-2</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>2</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>VMD-3</id>
+<eventType>VMD</eventType>
+<dynVideoInputChannelID>3</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-3</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>3</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>VMD-4</id>
+<eventType>VMD</eventType>
+<dynVideoInputChannelID>4</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-4</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>4</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>VMD-5</id>
+<eventType>VMD</eventType>
+<dynVideoInputChannelID>5</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-5</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>5</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>VMD-6</id>
+<eventType>VMD</eventType>
+<dynVideoInputChannelID>6</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-6</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>6</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>VMD-7</id>
+<eventType>VMD</eventType>
+<dynVideoInputChannelID>7</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-7</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>7</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>VMD-8</id>
+<eventType>VMD</eventType>
+<dynVideoInputChannelID>8</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-8</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>8</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>VMD-9</id>
+<eventType>VMD</eventType>
+<dynVideoInputChannelID>9</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-9</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>9</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>VMD-10</id>
+<eventType>VMD</eventType>
+<dynVideoInputChannelID>10</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-10</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>10</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>VMD-15</id>
+<eventType>VMD</eventType>
+<dynVideoInputChannelID>15</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-15</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>15</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>tamper-1</id>
+<eventType>tamperdetection</eventType>
+<dynVideoInputChannelID>1</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>tamper-2</id>
+<eventType>tamperdetection</eventType>
+<dynVideoInputChannelID>2</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>tamper-3</id>
+<eventType>tamperdetection</eventType>
+<dynVideoInputChannelID>3</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>tamper-4</id>
+<eventType>tamperdetection</eventType>
+<dynVideoInputChannelID>4</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>tamper-5</id>
+<eventType>tamperdetection</eventType>
+<dynVideoInputChannelID>5</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>tamper-6</id>
+<eventType>tamperdetection</eventType>
+<dynVideoInputChannelID>6</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>tamper-7</id>
+<eventType>tamperdetection</eventType>
+<dynVideoInputChannelID>7</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>tamper-8</id>
+<eventType>tamperdetection</eventType>
+<dynVideoInputChannelID>8</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>tamper-9</id>
+<eventType>tamperdetection</eventType>
+<dynVideoInputChannelID>9</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>tamper-10</id>
+<eventType>tamperdetection</eventType>
+<dynVideoInputChannelID>10</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>tamper-15</id>
+<eventType>tamperdetection</eventType>
+<dynVideoInputChannelID>15</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-1</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>1</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-2</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>2</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-3</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>3</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-4</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>4</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-5</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>5</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-6</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>6</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-7</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>7</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-8</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>8</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-9</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>9</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-10</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>10</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-11</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>11</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-12</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>12</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-13</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>13</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-14</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>14</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-15</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>15</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>videoloss-16</id>
+<eventType>videoloss</eventType>
+<dynVideoInputChannelID>16</dynVideoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>fielddetection-1</id>
+<eventType>fielddetection</eventType>
+<videoInputChannelID>1</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-1</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>1</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>fielddetection-2</id>
+<eventType>fielddetection</eventType>
+<videoInputChannelID>2</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-2</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>2</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>fielddetection-3</id>
+<eventType>fielddetection</eventType>
+<videoInputChannelID>3</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-3</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>3</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>fielddetection-4</id>
+<eventType>fielddetection</eventType>
+<videoInputChannelID>4</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-4</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>4</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>fielddetection-5</id>
+<eventType>fielddetection</eventType>
+<videoInputChannelID>5</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-5</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>5</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>fielddetection-6</id>
+<eventType>fielddetection</eventType>
+<videoInputChannelID>6</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-6</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>6</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>fielddetection-7</id>
+<eventType>fielddetection</eventType>
+<videoInputChannelID>7</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-7</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>7</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>fielddetection-8</id>
+<eventType>fielddetection</eventType>
+<videoInputChannelID>8</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-8</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>8</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>fielddetection-9</id>
+<eventType>fielddetection</eventType>
+<videoInputChannelID>9</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-9</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>9</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>fielddetection-10</id>
+<eventType>fielddetection</eventType>
+<videoInputChannelID>10</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-10</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>10</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>fielddetection-15</id>
+<eventType>fielddetection</eventType>
+<videoInputChannelID>15</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-15</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>15</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>linedetection-1</id>
+<eventType>linedetection</eventType>
+<videoInputChannelID>1</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-1</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>1</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>linedetection-2</id>
+<eventType>linedetection</eventType>
+<videoInputChannelID>2</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-2</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>2</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>linedetection-3</id>
+<eventType>linedetection</eventType>
+<videoInputChannelID>3</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-3</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>3</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>linedetection-4</id>
+<eventType>linedetection</eventType>
+<videoInputChannelID>4</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-4</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>4</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>linedetection-5</id>
+<eventType>linedetection</eventType>
+<videoInputChannelID>5</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-5</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>5</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>linedetection-6</id>
+<eventType>linedetection</eventType>
+<videoInputChannelID>6</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-6</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>6</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>linedetection-7</id>
+<eventType>linedetection</eventType>
+<videoInputChannelID>7</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-7</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>7</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>linedetection-8</id>
+<eventType>linedetection</eventType>
+<videoInputChannelID>8</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-8</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>8</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>linedetection-9</id>
+<eventType>linedetection</eventType>
+<videoInputChannelID>9</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-9</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>9</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>linedetection-10</id>
+<eventType>linedetection</eventType>
+<videoInputChannelID>10</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-10</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>10</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>linedetection-15</id>
+<eventType>linedetection</eventType>
+<videoInputChannelID>15</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-15</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>15</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>facedetection-2</id>
+<eventType>facedetection</eventType>
+<videoInputChannelID>2</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-2</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>2</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>facedetection-3</id>
+<eventType>facedetection</eventType>
+<videoInputChannelID>3</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-3</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>3</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>facedetection-4</id>
+<eventType>facedetection</eventType>
+<videoInputChannelID>4</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-4</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>4</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>facedetection-5</id>
+<eventType>facedetection</eventType>
+<videoInputChannelID>5</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-5</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>5</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>facedetection-6</id>
+<eventType>facedetection</eventType>
+<videoInputChannelID>6</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-6</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>6</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>facedetection-7</id>
+<eventType>facedetection</eventType>
+<videoInputChannelID>7</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-7</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>7</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>facedetection-8</id>
+<eventType>facedetection</eventType>
+<videoInputChannelID>8</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-8</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>8</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>facedetection-9</id>
+<eventType>facedetection</eventType>
+<videoInputChannelID>9</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-9</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>9</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>facedetection-10</id>
+<eventType>facedetection</eventType>
+<videoInputChannelID>10</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-10</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>10</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>facedetection-15</id>
+<eventType>facedetection</eventType>
+<videoInputChannelID>15</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-15</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>15</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>audioexception-7</id>
+<eventType>audioexception</eventType>
+<videoInputChannelID>7</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-7</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>7</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>regionEntrance-1</id>
+<eventType>regionEntrance</eventType>
+<videoInputChannelID>1</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-1</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>1</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>regionEntrance-7</id>
+<eventType>regionEntrance</eventType>
+<videoInputChannelID>7</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-7</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>7</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>regionExiting-1</id>
+<eventType>regionExiting</eventType>
+<videoInputChannelID>1</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-1</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>1</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>regionExiting-7</id>
+<eventType>regionExiting</eventType>
+<videoInputChannelID>7</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-7</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>7</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>unattendedBaggage-2</id>
+<eventType>unattendedBaggage</eventType>
+<videoInputChannelID>2</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-2</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>2</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>unattendedBaggage-3</id>
+<eventType>unattendedBaggage</eventType>
+<videoInputChannelID>3</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-3</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>3</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>unattendedBaggage-4</id>
+<eventType>unattendedBaggage</eventType>
+<videoInputChannelID>4</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-4</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>4</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>unattendedBaggage-5</id>
+<eventType>unattendedBaggage</eventType>
+<videoInputChannelID>5</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-5</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>5</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>unattendedBaggage-6</id>
+<eventType>unattendedBaggage</eventType>
+<videoInputChannelID>6</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-6</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>6</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>unattendedBaggage-7</id>
+<eventType>unattendedBaggage</eventType>
+<videoInputChannelID>7</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-7</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>7</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>unattendedBaggage-8</id>
+<eventType>unattendedBaggage</eventType>
+<videoInputChannelID>8</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-8</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>8</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>unattendedBaggage-9</id>
+<eventType>unattendedBaggage</eventType>
+<videoInputChannelID>9</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-9</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>9</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>unattendedBaggage-10</id>
+<eventType>unattendedBaggage</eventType>
+<videoInputChannelID>10</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-10</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>10</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>unattendedBaggage-15</id>
+<eventType>unattendedBaggage</eventType>
+<videoInputChannelID>15</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-15</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>15</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>attendedBaggage-2</id>
+<eventType>attendedBaggage</eventType>
+<videoInputChannelID>2</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-2</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>2</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>attendedBaggage-3</id>
+<eventType>attendedBaggage</eventType>
+<videoInputChannelID>3</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-3</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>3</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>attendedBaggage-4</id>
+<eventType>attendedBaggage</eventType>
+<videoInputChannelID>4</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-4</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>4</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>attendedBaggage-5</id>
+<eventType>attendedBaggage</eventType>
+<videoInputChannelID>5</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-5</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>5</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>attendedBaggage-6</id>
+<eventType>attendedBaggage</eventType>
+<videoInputChannelID>6</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-6</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>6</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>attendedBaggage-7</id>
+<eventType>attendedBaggage</eventType>
+<videoInputChannelID>7</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-7</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>7</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>attendedBaggage-8</id>
+<eventType>attendedBaggage</eventType>
+<videoInputChannelID>8</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-8</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>8</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>attendedBaggage-9</id>
+<eventType>attendedBaggage</eventType>
+<videoInputChannelID>9</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-9</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>9</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>attendedBaggage-10</id>
+<eventType>attendedBaggage</eventType>
+<videoInputChannelID>10</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-10</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>10</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>attendedBaggage-15</id>
+<eventType>attendedBaggage</eventType>
+<videoInputChannelID>15</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-15</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>15</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>scenechangedetection-1</id>
+<eventType>scenechangedetection</eventType>
+<videoInputChannelID>1</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-1</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>1</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>scenechangedetection-2</id>
+<eventType>scenechangedetection</eventType>
+<videoInputChannelID>2</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-2</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>2</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>scenechangedetection-3</id>
+<eventType>scenechangedetection</eventType>
+<videoInputChannelID>3</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-3</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>3</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>scenechangedetection-4</id>
+<eventType>scenechangedetection</eventType>
+<videoInputChannelID>4</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-4</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>4</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>scenechangedetection-5</id>
+<eventType>scenechangedetection</eventType>
+<videoInputChannelID>5</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-5</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>5</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>scenechangedetection-6</id>
+<eventType>scenechangedetection</eventType>
+<videoInputChannelID>6</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-6</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>6</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>scenechangedetection-8</id>
+<eventType>scenechangedetection</eventType>
+<videoInputChannelID>8</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-8</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>8</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>scenechangedetection-9</id>
+<eventType>scenechangedetection</eventType>
+<videoInputChannelID>9</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-9</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>9</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>scenechangedetection-10</id>
+<eventType>scenechangedetection</eventType>
+<videoInputChannelID>10</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-10</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>10</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>scenechangedetection-15</id>
+<eventType>scenechangedetection</eventType>
+<videoInputChannelID>15</videoInputChannelID>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>record-15</id>
+<notificationMethod>record</notificationMethod>
+<dynVideoInputID>15</dynVideoInputID>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>center</id>
+<notificationMethod>center</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>diskfull</id>
+<eventType>diskfull</eventType>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>diskerror</id>
+<eventType>diskerror</eventType>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>beep</id>
+<notificationMethod>beep</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>nicbroken</id>
+<eventType>nicbroken</eventType>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>ipconflict</id>
+<eventType>ipconflict</eventType>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>beep</id>
+<notificationMethod>beep</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>illaccess</id>
+<eventType>illaccess</eventType>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+<EventTrigger version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<id>recordingfailure</id>
+<eventType>recordingfailure</eventType>
+<EventTriggerNotificationList version="1.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+<EventTriggerNotification>
+<id>email</id>
+<notificationMethod>email</notificationMethod>
+</EventTriggerNotification>
+<EventTriggerNotification>
+<id>beep</id>
+<notificationMethod>beep</notificationMethod>
+</EventTriggerNotification>
+</EventTriggerNotificationList>
+</EventTrigger>
+</EventTriggerList>

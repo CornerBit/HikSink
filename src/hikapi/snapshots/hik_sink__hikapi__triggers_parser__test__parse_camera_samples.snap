@@ -1,0 +1,91 @@
+---
+source: src/hikapi/triggers_parser.rs
+expression: parsed
+
+---
+- identifier:
+    channel: "1"
+    event_type: Motion
+  hik_id: VMD-1
+  description: VMD Event trigger Information
+- identifier:
+    channel: "1"
+    event_type: Tamper
+  hik_id: tamper-1
+  description: shelteralarm Event trigger Information
+- identifier:
+    channel: "1"
+    event_type: DiskFull
+  hik_id: diskfull
+  description: exception Information
+- identifier:
+    channel: "1"
+    event_type: DiskError
+  hik_id: diskerror
+  description: exception Information
+- identifier:
+    channel: "1"
+    event_type: NicBroken
+  hik_id: nicbroken
+  description: exception Information
+- identifier:
+    channel: "1"
+    event_type: IpConflict
+  hik_id: ipconflict
+  description: exception Information
+- identifier:
+    channel: "1"
+    event_type: IllegalAccess
+  hik_id: illaccess
+  description: exception Information
+- identifier:
+    channel: "1"
+    event_type: LineDetection
+  hik_id: linedetection-1
+  description: Linedetection Event trigger Information
+- identifier:
+    channel: "1"
+    event_type: FieldDetection
+  hik_id: fielddetection-1
+  description: fielddetection Event trigger Information
+- identifier:
+    channel: "1"
+    event_type: VideoMismatch
+  hik_id: videomismatch
+  description: exception Information
+- identifier:
+    channel: "1"
+    event_type: BadVideo
+  hik_id: badvideo
+  description: exception Information
+- identifier:
+    channel: "1"
+    event_type: FaceDetection
+  hik_id: facedetection-1
+  description: facedetection Event trigger Information
+- identifier:
+    channel: "1"
+    event_type: UnattendedBaggage
+  hik_id: unattendedBaggage-1
+  description: UnattendedBaggage Event trigger Information
+- identifier:
+    channel: "1"
+    event_type: AttendedBaggage
+  hik_id: attendedBaggage-1
+  description: AttendedBaggage Event trigger Information
+- identifier:
+    channel: "1"
+    event_type: StorageDetection
+  hik_id: storageDetection-1
+  description: storageDetection Event trigger Information
+- identifier:
+    channel: "1"
+    event_type: SceneChangeDetection
+  hik_id: scenechangedetection-1
+  description: scenechangedetection Event trigger Information
+- identifier:
+    channel: "1"
+    event_type: FaceSnap
+  hik_id: faceSnap-1
+  description: faceSnap Event trigger Information
+

@@ -1,0 +1,20 @@
+---
+source: src/mqtt/manager.rs
+expression: messages
+
+---
+- topic: hikvision_cameras/device_cam1/ch1/Motion
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Json:
+      alerting: true
+      regions:
+        - coordinates:
+            - x: 425
+              y: 600
+            - x: 160
+              y: 400
+          id: "0"
+          sensitivity: 50
+

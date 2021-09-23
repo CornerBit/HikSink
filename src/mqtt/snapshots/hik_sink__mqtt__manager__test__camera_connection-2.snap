@@ -1,0 +1,89 @@
+---
+source: src/mqtt/manager.rs
+expression: messages
+
+---
+- topic: hikvision_cameras/device_cam1/ch1/Motion
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Json:
+      alerting: false
+      regions: []
+- topic: hikvision_cameras/device_cam1/ch1/Io
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Json:
+      alerting: false
+      regions: []
+- topic: hikvision_cameras/device_cam1/log
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Constant: Connected
+- topic: hikvision_cameras/device_cam1/availability
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Constant: online
+- topic: homeassistant/binary_sensor/hiksink/device_cam1_ch1_Motion/config
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Json:
+      availability:
+        - topic: hikvision_cameras/availability
+        - topic: hikvision_cameras/device_cam1/availability
+      device:
+        identifiers:
+          - cam1_hiksink
+          - DS-2DE4A425IW-DE20180101AAWRC52000000W
+          - "ff:ff:ff:ff:ff:ff"
+        manufacturer: Hikvision
+        model: DS-2DE4A425IW-DE (IPDome)
+        name: Camera 1
+        sw_version: HikSink v0.1.0 / Camera Firmware V5.5.71 (build 180725)
+      device_class: motion
+      json_attributes_topic: hikvision_cameras/device_cam1/ch1/Motion
+      name: Camera 1 CH1 Motion
+      payload_off: false
+      payload_on: true
+      state_topic: hikvision_cameras/device_cam1/ch1/Motion
+      unique_id: device_cam1_ch1_Motion_hiksink
+      value_template: "{{ value_json.alerting }}"
+- topic: homeassistant/binary_sensor/hiksink/device_cam1_ch1_Io/config
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Json:
+      availability:
+        - topic: hikvision_cameras/availability
+        - topic: hikvision_cameras/device_cam1/availability
+      device:
+        identifiers:
+          - cam1_hiksink
+          - DS-2DE4A425IW-DE20180101AAWRC52000000W
+          - "ff:ff:ff:ff:ff:ff"
+        manufacturer: Hikvision
+        model: DS-2DE4A425IW-DE (IPDome)
+        name: Camera 1
+        sw_version: HikSink v0.1.0 / Camera Firmware V5.5.71 (build 180725)
+      icon: "mdi:electric-switch"
+      json_attributes_topic: hikvision_cameras/device_cam1/ch1/Io
+      name: Camera 1 CH1 I/O Port
+      payload_off: false
+      payload_on: true
+      state_topic: hikvision_cameras/device_cam1/ch1/Io
+      unique_id: device_cam1_ch1_Io_hiksink
+      value_template: "{{ value_json.alerting }}"
+- topic: hikvision_cameras/stats
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Json:
+      cameras_connected: 1
+      cameras_disconnected: 0
+      cameras_total: 1
+      triggers_total: 2
+

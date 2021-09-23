@@ -1,0 +1,106 @@
+---
+source: src/mqtt/manager.rs
+expression: manager.mqtt_connection_established()
+
+---
+- topic: hikvision_cameras/device_cam1/log
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Constant: Initial connection in progress...
+- topic: hikvision_cameras/device_cam1/availability
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Constant: offline
+- topic: hikvision_cameras/availability
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Constant: online
+- topic: hikvision_cameras/stats
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Json:
+      cameras_connected: 0
+      cameras_disconnected: 1
+      cameras_total: 1
+      triggers_total: 0
+- topic: homeassistant/sensor/hiksink/cameras_connected/config
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Json:
+      availability:
+        - topic: hikvision_cameras/availability
+      device:
+        identifiers:
+          - hiksink_bridge
+        manufacturer: Hiksink
+        name: HikSink Bridge
+        sw_version: v0.1.0
+      json_attributes_topic: hikvision_cameras/stats
+      name: Cameras Connected
+      state_topic: hikvision_cameras/stats
+      unique_id: hiksink_stat_cameras_connected
+      unit_of_measurement: Cameras
+      value_template: "{{ value_json.cameras_connected }}"
+- topic: homeassistant/sensor/hiksink/cameras_disconnected/config
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Json:
+      availability:
+        - topic: hikvision_cameras/availability
+      device:
+        identifiers:
+          - hiksink_bridge
+        manufacturer: Hiksink
+        name: HikSink Bridge
+        sw_version: v0.1.0
+      json_attributes_topic: hikvision_cameras/stats
+      name: Cameras Disconnected
+      state_topic: hikvision_cameras/stats
+      unique_id: hiksink_stat_cameras_disconnected
+      unit_of_measurement: Cameras
+      value_template: "{{ value_json.cameras_disconnected }}"
+- topic: homeassistant/sensor/hiksink/cameras_total/config
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Json:
+      availability:
+        - topic: hikvision_cameras/availability
+      device:
+        identifiers:
+          - hiksink_bridge
+        manufacturer: Hiksink
+        name: HikSink Bridge
+        sw_version: v0.1.0
+      json_attributes_topic: hikvision_cameras/stats
+      name: Total Cameras
+      state_topic: hikvision_cameras/stats
+      unique_id: hiksink_stat_cameras_total
+      unit_of_measurement: Cameras
+      value_template: "{{ value_json.cameras_total }}"
+- topic: homeassistant/sensor/hiksink/triggers_total/config
+  qos: AtLeastOnce
+  retain: true
+  payload:
+    Json:
+      availability:
+        - topic: hikvision_cameras/availability
+      device:
+        identifiers:
+          - hiksink_bridge
+        manufacturer: Hiksink
+        name: HikSink Bridge
+        sw_version: v0.1.0
+      json_attributes_topic: hikvision_cameras/stats
+      name: Total Triggers
+      state_topic: hikvision_cameras/stats
+      unique_id: hiksink_stat_triggers_total
+      unit_of_measurement: Triggers
+      value_template: "{{ value_json.triggers_total }}"
+

@@ -138,7 +138,7 @@ impl EventType {
             EventType::AudioException => Some("mdi:microphone"),
             EventType::Tamper => None,
             EventType::VideoLoss | EventType::VideoMismatch | EventType::BadVideo => {
-                Some("mdi:cctv-off")
+                Some("mdi:camera-off")
             }
             EventType::StorageDetection
             | EventType::RecordingFailure

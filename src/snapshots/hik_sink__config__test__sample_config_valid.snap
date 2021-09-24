@@ -1,0 +1,23 @@
+---
+source: src/config.rs
+expression: "super::load_config(figment::providers::Toml::string(SAMPLE_CONFIG))"
+
+---
+Ok:
+  system:
+    log_level: INFO
+  camera:
+    - generated_id: front_porch
+      name: Front Porch
+      address: 192.168.1.200
+      port: 80
+      username: steven
+      password: camera_password
+  mqtt:
+    address: localhost
+    port: 1883
+    username: user
+    password: pass
+    base_topic: hikvision_cameras
+    home_assistant_topic: homeassistant
+

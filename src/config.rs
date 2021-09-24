@@ -5,8 +5,14 @@ use serde::{Deserialize, Serialize};
 
 #[derive(Debug, PartialEq, Serialize, Deserialize, Clone)]
 pub struct Config {
+    pub system: ConfigSystem,
     pub camera: Vec<ConfigCamera>,
     pub mqtt: ConfigMqtt,
+}
+
+#[derive(Debug, PartialEq, Serialize, Deserialize, Clone)]
+pub struct ConfigSystem {
+    pub log_level: String,
 }
 
 #[derive(Debug, PartialEq, Serialize, Deserialize, Clone)]
@@ -36,10 +42,14 @@ pub struct ConfigMqtt {
     pub home_assistant_topic: String,
 }
 
-pub fn load_config(path: impl AsRef<Path>) -> Result<Config, String> {
+pub fn load_config_from_path(path: impl AsRef<Path>) -> Result<Config, String> {
+    load_config(figment::providers::Toml::file(path))
+}
+
+pub fn load_config(data: impl figment::Provider) -> Result<Config, String> {
     let mut cfg: Config = Figment::new()
         .merge(figment::providers::Env::prefixed("HIKSINK_"))
-        .merge(figment::providers::Toml::file(path))
+        .merge(data)
         .extract()
         .map_err(|e| e.to_string())?;
 
@@ -73,4 +83,17 @@ pub fn load_config(path: impl AsRef<Path>) -> Result<Config, String> {
         ids.insert(id);
     }
     Ok(cfg)
+}
+
+#[cfg(test)]
+mod test {
+    use figment::providers::Format;
+
+    #[test]
+    fn test_sample_config_valid() {
+        const SAMPLE_CONFIG: &str = include_str!("../sample_config.toml");
+        insta::assert_yaml_snapshot!(super::load_config(figment::providers::Toml::string(
+            SAMPLE_CONFIG
+        )));
+    }
 }

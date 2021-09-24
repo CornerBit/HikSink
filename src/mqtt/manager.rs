@@ -173,8 +173,9 @@ impl Manager {
                             // The video loss event is special in that it is not typically listed (for non-NVR models) in the initial trigger scan.
                             // It has no practical use for cameras as a video loss would be due to a connection failure.
                             warn!(
-                                "Camera {} send an alert for a trigger which does not exist",
-                                cam.config.identifier()
+                                camera=cam.config.identifier(),
+                                trigger=?alert_identifier.event_type,
+                                "Camera send an alert for a trigger which does not exist",
                             );
                         }
                     }

@@ -1,4 +1,8 @@
 
+[system]
+# Supports TRACE, DEBUG, INFO, WARN, and ERROR
+log_level = "INFO"
+
 [mqtt]
 address = "localhost"
 port = 1883
@@ -8,6 +12,7 @@ password = "pass"
 base_topic = "hikvision_cameras"
 home_assistant_topic = "homeassistant"
 
+# Duplicate this camera section to add multiple cameras
 [[camera]]
 name = "Front Porch"
 address = "192.168.1.200"

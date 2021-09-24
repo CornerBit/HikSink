@@ -3,7 +3,12 @@
 </p>
 
 <p align="center">
-   <a href="https://github.com/CornerBit/HikSink/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/CornerBit/HikSink"></a>
+   <a href="https://github.com/CornerBit/HikSink/releases">
+      <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/CornerBit/HikSink">
+   </a>
+   <a href="https://github.com/CornerBit/HikSink/blob/main/LICENSE">
+      <img alt="GitHub license" src="https://img.shields.io/github/license/CornerBit/HikSink">
+   </a>
    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/CornerBit/HikSink/ci">
 </p>
 

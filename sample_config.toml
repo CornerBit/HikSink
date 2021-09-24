@@ -1,0 +1,18 @@
+
+[mqtt]
+address = "localhost"
+port = 1883
+username = "user"
+password = "pass"
+# The MQTT topic under which all camera events will be published
+base_topic = "hikvision_cameras"
+home_assistant_topic = "homeassistant"
+
+[[camera]]
+name = "Front Porch"
+address = "192.168.1.200"
+# Port is optional. Use this if your camera is behind an NVR.
+port = 80
+# The username and password of any account that has 'Notify Surveillance Center' permissions.
+username = "steven"
+password = "camera_password"

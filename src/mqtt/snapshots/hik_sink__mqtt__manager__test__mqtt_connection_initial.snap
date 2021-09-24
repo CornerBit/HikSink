@@ -39,7 +39,7 @@ expression: manager.mqtt_connection_established()
           - hiksink_bridge
         manufacturer: Hiksink
         name: HikSink Bridge
-        sw_version: v0.1.0
+        sw_version: "[sw_version]"
       json_attributes_topic: hikvision_cameras/stats
       name: Cameras Connected
       state_topic: hikvision_cameras/stats
@@ -58,7 +58,7 @@ expression: manager.mqtt_connection_established()
           - hiksink_bridge
         manufacturer: Hiksink
         name: HikSink Bridge
-        sw_version: v0.1.0
+        sw_version: "[sw_version]"
       json_attributes_topic: hikvision_cameras/stats
       name: Cameras Disconnected
       state_topic: hikvision_cameras/stats
@@ -77,7 +77,7 @@ expression: manager.mqtt_connection_established()
           - hiksink_bridge
         manufacturer: Hiksink
         name: HikSink Bridge
-        sw_version: v0.1.0
+        sw_version: "[sw_version]"
       json_attributes_topic: hikvision_cameras/stats
       name: Total Cameras
       state_topic: hikvision_cameras/stats
@@ -96,7 +96,7 @@ expression: manager.mqtt_connection_established()
           - hiksink_bridge
         manufacturer: Hiksink
         name: HikSink Bridge
-        sw_version: v0.1.0
+        sw_version: "[sw_version]"
       json_attributes_topic: hikvision_cameras/stats
       name: Total Triggers
       state_topic: hikvision_cameras/stats

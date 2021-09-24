@@ -290,10 +290,8 @@ impl TriggerDetails {
     ) -> MqttMessage {
         let name = format!("{} {}", cam.config.name, self.trigger.identifier);
         let sw_version = format!(
-            "HikSink v{} / Camera Firmware {} ({})",
-            env!("CARGO_PKG_VERSION"),
-            info.firmware_version,
-            info.firmware_release_date
+            "Camera Firmware {} ({})",
+            info.firmware_version, info.firmware_release_date
         );
         let mut discovery = serde_json::json!({
             "availability": [
@@ -570,7 +568,9 @@ mod test {
     fn test_mqtt_connection_initial() {
         let cams = sample_cameras();
         let manager = Manager::new(cams, MqttTopics::default());
-        insta::assert_yaml_snapshot!(manager.mqtt_connection_established());
+        insta::assert_yaml_snapshot!(manager.mqtt_connection_established(), {
+            "[].**.sw_version" => "[sw_version]"
+        });
     }
 
     #[test]
@@ -591,7 +591,6 @@ mod test {
         insta::assert_yaml_snapshot!(manager, {
             ".cameras[].triggers[].last_alert" => "[last_alert]"
         });
-        // TODO: redact package version (sw_version) once supported in insta
         insta::assert_yaml_snapshot!(messages);
     }
 

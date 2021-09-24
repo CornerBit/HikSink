@@ -43,7 +43,7 @@ expression: messages
         manufacturer: Hikvision
         model: DS-2DE4A425IW-DE (IPDome)
         name: Camera 1
-        sw_version: HikSink v0.1.0 / Camera Firmware V5.5.71 (build 180725)
+        sw_version: Camera Firmware V5.5.71 (build 180725)
       device_class: motion
       json_attributes_topic: hikvision_cameras/device_cam1/ch1/Motion
       name: Camera 1 CH1 Motion
@@ -68,7 +68,7 @@ expression: messages
         manufacturer: Hikvision
         model: DS-2DE4A425IW-DE (IPDome)
         name: Camera 1
-        sw_version: HikSink v0.1.0 / Camera Firmware V5.5.71 (build 180725)
+        sw_version: Camera Firmware V5.5.71 (build 180725)
       icon: "mdi:electric-switch"
       json_attributes_topic: hikvision_cameras/device_cam1/ch1/Io
       name: Camera 1 CH1 I/O Port

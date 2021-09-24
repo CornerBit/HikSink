@@ -1,9 +1,11 @@
-# HikSink
-
 <p align="center">
   <img src="doc/images/Logo.png" alt="HikSink Logo"/>
 </p>
 
+<p align="center">
+   <a href="https://github.com/CornerBit/HikSink/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/CornerBit/HikSink"></a>
+   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/CornerBit/HikSink/ci">
+</p>
 
 HikSink streams Hikvision camera and NVR events (motion, line crossing, tamper, illegal logins, etc.) to MQTT messages for consumption by home automation software like Home Assistant. Some key features of HikSink are:
 

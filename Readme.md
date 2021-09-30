@@ -6,6 +6,12 @@
    <a href="https://github.com/CornerBit/HikSink/releases">
       <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/CornerBit/HikSink">
    </a>
+   <a href="https://hub.docker.com/r/cornerbit/hiksink">
+      <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/cornerbit/hiksink">
+   </a>
+   <a href="https://hub.docker.com/r/cornerbit/hiksink">
+      <img alt="Docker Image Size (latest by date)" src="https://img.shields.io/docker/image-size/cornerbit/hiksink?label=docker%20image">
+   </a>
    <a href="https://github.com/CornerBit/HikSink/blob/main/LICENSE">
       <img alt="GitHub license" src="https://img.shields.io/github/license/CornerBit/HikSink">
    </a>

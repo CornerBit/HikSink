@@ -172,6 +172,7 @@ impl FromStr for EventType {
             "videoloss" => EventType::VideoLoss,
             "tamperdetection" => EventType::Tamper,
             "shelteralarm" => EventType::Tamper,
+            "defocus" => EventType::Tamper,
             "videomismatch" => EventType::VideoMismatch,
             "badvideo" => EventType::BadVideo,
             "storagedetection" => EventType::StorageDetection,

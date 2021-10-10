@@ -40,6 +40,12 @@ pub struct ConfigMqtt {
     pub password: String,
     pub base_topic: String,
     pub home_assistant_topic: String,
+    #[serde(default = "default_client_id")]
+    pub client_id: String,
+}
+
+fn default_client_id() -> String {
+    String::from("hik-sink")
 }
 
 pub fn load_config_from_path(path: impl AsRef<Path>) -> Result<Config, String> {

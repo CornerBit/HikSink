@@ -16,8 +16,11 @@ pub fn initiate_connection(config: &Config) -> Result<mpsc::Sender<CameraEvent>,
         ),
     );
 
-    let mut mqttoptions =
-        MqttOptions::new("hik-sink", config.mqtt.address.clone(), config.mqtt.port);
+    let mut mqttoptions = MqttOptions::new(
+        config.mqtt.client_id.clone(),
+        config.mqtt.address.clone(),
+        config.mqtt.port,
+    );
     mqttoptions
         .set_keep_alive(5)
         .set_pending_throttle(Duration::from_millis(10));

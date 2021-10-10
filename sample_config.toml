@@ -8,6 +8,8 @@ address = "localhost"
 port = 1883
 username = "user"
 password = "pass"
+# Optional: Customise the client ID used when connecting to the MQTT broker
+# client_id = "hik-sink"
 # The MQTT topic under which all camera events will be published
 base_topic = "hikvision_cameras"
 home_assistant_topic = "homeassistant"

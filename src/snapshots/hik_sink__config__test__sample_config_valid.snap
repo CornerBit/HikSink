@@ -20,4 +20,5 @@ Ok:
     password: pass
     base_topic: hikvision_cameras
     home_assistant_topic: homeassistant
+    client_id: hik-sink
 

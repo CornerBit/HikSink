@@ -22,7 +22,7 @@ pub fn initiate_connection(config: &Config) -> Result<mpsc::Sender<CameraEvent>,
         config.mqtt.port,
     );
     mqttoptions
-        .set_keep_alive(5)
+        .set_keep_alive(std::time::Duration::from_secs(5))
         .set_pending_throttle(Duration::from_millis(10));
     mqttoptions.set_credentials(config.mqtt.username.clone(), config.mqtt.password.clone());
     // We need to retain the session state between broker reboots so we don't lose our subscriptions

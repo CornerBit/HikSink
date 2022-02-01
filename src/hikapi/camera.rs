@@ -94,7 +94,7 @@ async fn reconnect_cam(cam: ConfigCamera, queue: &mpsc::Sender<CameraEvent>) -> 
                     .send(CameraEvent {
                         id: cam.identifier().to_string(),
                         event: CameraEventType::Disconnected {
-                            error: format!("Reconnection failure: {}", e.to_string()),
+                            error: format!("Reconnection failure: {}", e),
                         },
                     })
                     .await;

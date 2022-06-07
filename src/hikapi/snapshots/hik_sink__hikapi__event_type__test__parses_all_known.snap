@@ -1,0 +1,32 @@
+---
+source: src/hikapi/event_type.rs
+assertion_line: 275
+expression: tests_normal_case
+
+---
+- Ok: Io
+- Ok: Motion
+- Ok: AttendedBaggage
+- Ok: AudioException
+- Ok: BadVideo
+- Ok: DiskError
+- Ok: DiskFull
+- Ok: FaceSnap
+- Ok: FaceDetection
+- Ok: FaceDetection
+- Ok: FaceDetection
+- Ok: FieldDetection
+- Ok: IllegalAccess
+- Ok: IpConflict
+- Ok: LineDetection
+- Ok: NicBroken
+- Ok: RecordingFailure
+- Ok: RegionEntrance
+- Ok: RegionExiting
+- Ok: SceneChangeDetection
+- Ok: StorageDetection
+- Ok: Tamper
+- Ok: UnattendedBaggage
+- Ok: VideoLoss
+- Ok: VideoMismatch
+

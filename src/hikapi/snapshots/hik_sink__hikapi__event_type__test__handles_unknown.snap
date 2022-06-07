@@ -1,0 +1,14 @@
+---
+source: src/hikapi/event_type.rs
+assertion_line: 293
+expression: "invalids.iter().map(|t| t.parse::<EventType>()).collect::<Vec<_>>()"
+
+---
+- Err: Event type contained non-alphabetic or non-numeric characters
+- Err: Event type contained non-alphabetic or non-numeric characters
+- Err: Event type empty
+- Err: Event type empty
+- Err: Event type empty
+- Err: Event type empty
+- Err: Event type contained non-alphabetic or non-numeric characters
+

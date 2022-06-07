@@ -155,8 +155,19 @@ impl FromStr for EventType {
     type Err = String;
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
+        // Some cameras/firmwares attach a number to the event id, strip this out
+        let primary = s
+            .split('-')
+            .next()
+            .ok_or_else(|| "No parts in split".to_string())?
+            .trim();
+
+        if primary.is_empty() {
+            return Err("Event type empty".to_string());
+        }
+
         // Hikvision is inconsistent with the case of the event types, even within the same camera model, so we ignore case.
-        Ok(match s.to_ascii_lowercase().as_str() {
+        Ok(match primary.to_ascii_lowercase().as_str() {
             "io" => EventType::Io,
             "vmd" => EventType::Motion,
             "linedetection" => EventType::LineDetection,
@@ -243,6 +254,8 @@ mod test {
             "diskfull",
             "faceSnap",
             "facedetection",
+            "facedetection-1",
+            "faceDetection-Unknown",
             "fielddetection",
             "illAccess",
             "ipconflict",
@@ -258,33 +271,38 @@ mod test {
             "videoloss",
             "videomismatch",
         ];
-        for t in tests {
-            // Test normal case
-            let res = t.parse();
-            assert!(
-                !matches!(res, Ok(EventType::Unknown(_))),
-                "Invalid parse of normal case {:?}: {:?}",
-                t,
-                res
-            );
+        let tests_normal_case = tests
+            .iter()
+            .map(|t| t.parse::<EventType>())
+            .collect::<Vec<_>>();
+        let tests_lower_case = tests
+            .iter()
+            .map(|t| t.to_ascii_lowercase().parse::<EventType>())
+            .collect::<Vec<_>>();
 
-            // Test lowercase
-            let res = t.to_ascii_lowercase().parse();
-            assert!(
-                !matches!(res, Ok(EventType::Unknown(_))),
-                "Invalid parse of lower case {:?}: {:?}",
-                t,
-                res
-            );
-        }
+        assert_eq!(tests_normal_case, tests_lower_case);
+
+        insta::assert_yaml_snapshot!(tests_normal_case);
     }
     #[test]
-    fn test_handles_unkown() {
+    fn test_handles_unknown() {
         assert_eq!(
             "random".parse(),
             Ok(EventType::Unknown("random".to_string()))
         );
-        assert!("random space".parse::<EventType>().is_err());
-        assert!("line-detection".parse::<EventType>().is_err());
+
+        let invalids = vec![
+            "random space",
+            "line-detection",
+            "",
+            " ",
+            " - ",
+            "-1",
+            "a - a",
+        ];
+        insta::assert_yaml_snapshot!(invalids
+            .iter()
+            .map(|t| t.parse::<EventType>())
+            .collect::<Vec<_>>());
     }
 }
